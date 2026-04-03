@@ -73,7 +73,7 @@
 
     <!-- 空状态 -->
     <div v-if="referralRecords.length === 0" class="empty-state">
-      <img src="../../../assets/images/placeholder.png" alt="空状态" class="empty-image" />
+      <img src="/src/assets/images/placeholder.png" alt="空状态" class="empty-image" />
       <p class="empty-text">暂无转介绍记录</p>
       <van-button type="primary" @click="goToGeneratePoster">生成海报</van-button>
     </div>

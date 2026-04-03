@@ -43,7 +43,7 @@
     
     <!-- 空状态 -->
     <div v-if="templates.length === 0" class="empty-state">
-      <img src="../../../assets/images/placeholder.png" alt="空状态" class="empty-image" />
+      <img src="/src/assets/images/placeholder.png" alt="空状态" class="empty-image" />
       <p class="empty-text">暂无表单模板</p>
     </div>
   </div>

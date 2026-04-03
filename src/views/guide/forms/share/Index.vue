@@ -24,7 +24,7 @@
     <div class="qrcode-section">
       <div class="qrcode-container">
         <div class="qrcode-placeholder">
-          <img src="../../../assets/images/placeholder.png" alt="表单二维码" class="qrcode-image" />
+          <img src="/src/assets/images/placeholder.png" alt="表单二维码" class="qrcode-image" />
         </div>
         <p class="qrcode-desc">扫描二维码填写表单</p>
       </div>

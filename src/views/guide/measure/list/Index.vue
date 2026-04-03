@@ -63,7 +63,7 @@
     
     <!-- 空状态 -->
     <div v-if="measureList.length === 0" class="empty-state">
-      <img src="../../../assets/images/placeholder.png" alt="空状态" class="empty-image" />
+      <img src="/src/assets/images/placeholder.png" alt="空状态" class="empty-image" />
       <p class="empty-text">暂无量房任务</p>
       <van-button type="primary" @click="createMeasure">新建量房</van-button>
     </div>

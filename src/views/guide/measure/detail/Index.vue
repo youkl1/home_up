@@ -62,10 +62,10 @@
               class="image-item"
               @click="previewImage(index, 'housePlan')"
             >
-              <img :src="image.url || '../../../assets/images/placeholder.png'" :alt="'户型图' + (index + 1)" />
+              <img :src="image.url || '/src/assets/images/placeholder.png'" :alt="'户型图' + (index + 1)" />
             </div>
             <div v-if="measureInfo.images.housePlan.length === 0" class="empty-image">
-              <img src="../../../assets/images/placeholder.png" alt="暂无图片" />
+              <img src="/src/assets/images/placeholder.png" alt="暂无图片" />
             </div>
           </div>
         </div>
@@ -79,10 +79,10 @@
               class="image-item"
               @click="previewImage(index, 'sketches')"
             >
-              <img :src="image.url || '../../../assets/images/placeholder.png'" :alt="'草图' + (index + 1)" />
+              <img :src="image.url || '/src/assets/images/placeholder.png'" :alt="'草图' + (index + 1)" />
             </div>
             <div v-if="measureInfo.images.sketches.length === 0" class="empty-image">
-              <img src="../../../assets/images/placeholder.png" alt="暂无图片" />
+              <img src="/src/assets/images/placeholder.png" alt="暂无图片" />
             </div>
           </div>
         </div>
@@ -96,10 +96,10 @@
               class="image-item"
               @click="previewImage(index, 'photos')"
             >
-              <img :src="image.url || '../../../assets/images/placeholder.png'" :alt="'照片' + (index + 1)" />
+              <img :src="image.url || '/src/assets/images/placeholder.png'" :alt="'照片' + (index + 1)" />
             </div>
             <div v-if="measureInfo.images.photos.length === 0" class="empty-image">
-              <img src="../../../assets/images/placeholder.png" alt="暂无图片" />
+              <img src="/src/assets/images/placeholder.png" alt="暂无图片" />
             </div>
           </div>
         </div>

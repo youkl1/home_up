@@ -35,7 +35,7 @@
           <div class="poster-overlay">
             <div class="poster-title">{{ posterTitle }}</div>
             <div class="poster-qrcode">
-              <img src="../../../assets/images/placeholder.png" alt="二维码" />
+              <img src="/src/assets/images/placeholder.png" alt="二维码" />
             </div>
             <div class="poster-info">
               <div class="guide-name">导购: {{ guideName }}</div>

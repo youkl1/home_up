@@ -68,7 +68,7 @@
     
     <!-- 空状态 -->
     <div v-if="formData.length === 0" class="empty-state">
-      <img src="../../../assets/images/placeholder.png" alt="空状态" class="empty-image" />
+      <img src="/src/assets/images/placeholder.png" alt="空状态" class="empty-image" />
       <p class="empty-text">暂无表单数据</p>
     </div>
   </div>
