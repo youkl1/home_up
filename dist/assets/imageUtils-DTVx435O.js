@@ -1,0 +1,1 @@
+const U=r=>{r.target.src=new URL("data:image/png;base64,aVZCT1J3MEtHZ29BQUFBTlNVaEVVZ0FBQUFFQUFBQUJDQVlBQUFBZkZjU0pBQUFBRFVsRVFWUjQybU5rWVBoZkR3QUNod0dBNjBlNmtnQUFBQUJKUlU1RXJrSmdnZz09",import.meta.url).href,r.target.onerror=null};export{U as h};
