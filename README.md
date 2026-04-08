@@ -173,9 +173,7 @@ MIT License
 
 ## 联系方式
 
-- 项目负责人：[Your Name]
-- 技术支持：[support@homeup.com]
-- 官方网站：[https://www.homeup.com]
+- 项目负责人：[Youkl]
 
 ---
 
